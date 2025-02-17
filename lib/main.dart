@@ -52,9 +52,18 @@ class _MyApptState extends State<MyApp> {
       child: SafeArea(
       child: Column(
       children: [
-       
+        SizedBox(height: 20,),
+        Center(child: ClipOval(child: Image.asset('images/1.jpg', height: 150))),
+        Text('Name: Mary Joyce Artienda', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Adress: Arayat, Pampanga', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Contact No. 09456152536', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Email: joyce.art25@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue))
+
       ],
       ),
+
+      
+      
     ));
   }
 }
