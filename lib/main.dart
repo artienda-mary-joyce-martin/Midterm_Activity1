@@ -41,6 +41,10 @@ class _MyApptState extends State<MyApp> {
                 Text('Andrea Culala'),
 
                 SizedBox(height: 10),
+                ClipOval(child: Image.asset('images/4.jpg', height: 50)),
+                Text('Dexter Gomez'),
+
+                SizedBox(height: 10),
                 ClipOval(child: Image.asset('images/5.jpg', height: 50)),
                 Text('JhonVianey Bulanadi')
               ],
@@ -72,6 +76,12 @@ class _MyApptState extends State<MyApp> {
         Center(child: ClipOval(child: Image.asset('images/2.jpg', height: 70))),
         Text('Name: Andrea Culala', style: TextStyle(color: CupertinoColors.activeBlue)),
         Text('Address: Candaba, Pampanga  ||  Contact No. 09275766686  ||  Email: andreaculala78@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue)),
+
+        //Dexter
+        SizedBox(height: 20,),
+        Center(child: ClipOval(child: Image.asset('images/4.jpg', height: 70))),
+        Text('Name: Dexter Gomez', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Address: Sta Ana, Pampanga  ||  Contact No. 09482811237  ||  Email: dextergomez1009@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue)),
 
         //JhonVianey
         SizedBox(height: 20,),
