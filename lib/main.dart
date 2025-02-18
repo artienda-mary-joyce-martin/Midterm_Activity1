@@ -32,8 +32,13 @@ class _MyApptState extends State<MyApp> {
 
             content: Column(
               children:[
+                SizedBox(height: 10),
                 ClipOval(child: Image.asset('images/1.jpg', height: 50)),
-                Text('Mary Joyce Artienda')
+                Text('Mary Joyce Artienda'),
+
+                SizedBox(height: 10),
+                ClipOval(child: Image.asset('images/2.jpg', height: 50)),
+                Text('Andrea Culala')
               ],
             ),
 
