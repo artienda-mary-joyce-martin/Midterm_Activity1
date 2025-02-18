@@ -50,7 +50,7 @@ class _MyApptState extends State<MyApp> {
 
                 SizedBox(height: 10),
                 ClipOval(child: Image.asset('images/5.jpg', height: 50)),
-                Text('JhonVianey Bulanadi')
+                Text('JhonVianey Bulanadi'),
               ],
             ),
 
