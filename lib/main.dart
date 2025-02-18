@@ -62,7 +62,14 @@ class _MyApptState extends State<MyApp> {
         Text('Name: Mary Joyce Artienda', style: TextStyle(color: CupertinoColors.activeBlue)),
         Text('Adress: Arayat, Pampanga', style: TextStyle(color: CupertinoColors.activeBlue)),
         Text('Contact No. 09456152536', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Email: joyce.art25@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue))
+        Text('Email: joyce.art25@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue)),
+
+        SizedBox(height: 20,),
+        Center(child: ClipOval(child: Image.asset('images/2.jpg', height: 150))),
+        Text('Name: Andrea Culala', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Adress: Candaba, Pampanga', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Contact No. 09275766686', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Text('Email: andreaculala78@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue))
 
       ],
       ),
