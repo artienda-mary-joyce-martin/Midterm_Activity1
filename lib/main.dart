@@ -57,19 +57,17 @@ class _MyApptState extends State<MyApp> {
       child: SafeArea(
       child: Column(
       children: [
+        //Mary Joyce
         SizedBox(height: 20,),
-        Center(child: ClipOval(child: Image.asset('images/1.jpg', height: 150))),
-        Text('Name: Mary Joyce Artienda', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Adress: Arayat, Pampanga', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Contact No. 09456152536', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Email: joyce.art25@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue)),
+        Center(child: ClipOval(child: Image.asset('images/1.jpg', height: 70))),
+        Text('Name: Mary Joyce Artienda', style: TextStyle(color: CupertinoColors.activeBlue,)),
+        Text('Adress: Arayat, Pampanga  ||  Contact No. 09456152536  ||  Email: joyce.art25@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue)),
 
+        //Andrea
         SizedBox(height: 20,),
-        Center(child: ClipOval(child: Image.asset('images/2.jpg', height: 150))),
+        Center(child: ClipOval(child: Image.asset('images/2.jpg', height: 70))),
         Text('Name: Andrea Culala', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Adress: Candaba, Pampanga', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Contact No. 09275766686', style: TextStyle(color: CupertinoColors.activeBlue)),
-        Text('Email: andreaculala78@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue))
+        Text('Address: Candaba, Pampanga  ||  Contact No. 09275766686  ||  Email: andreaculala78@gmail.com', style: TextStyle(color: CupertinoColors.activeBlue))
 
       ],
       ),
